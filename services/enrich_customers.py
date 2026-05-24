@@ -31,7 +31,7 @@ def enrich_customers(input_file):
             df.at[i, "Region"] = data.get("regiao", "")
 
            
-            excel_row = i + 2  # +2 por causa do header
+            excel_row = i + 2
 
             ws[f"F{excel_row}"] = df.at[i, "Address"]
             ws[f"I{excel_row}"] = df.at[i, "Neighborhood"]
