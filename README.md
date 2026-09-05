@@ -1,14 +1,15 @@
-# 📍 Customer CEP Enrichment
+# Customer CEP Enrichment
 
 Automated Excel data enrichment using Brazilian CEP API (ViaCEP).
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project reads an Excel file containing customer CEP (ZIP codes) and automatically fills missing address information using the ViaCEP API.
 
 Fields enriched:
+
 - Address
 - Neighborhood
 - City
@@ -17,7 +18,7 @@ Fields enriched:
 
 ---
 
-## ⚙️ Features
+## Features
 
 - ✅ Fetches address data from CEP
 - ✅ Skips already filled rows
@@ -26,17 +27,9 @@ Fields enriched:
 
 ---
 
-## 🛠️ Technologies
+## Technologies
 
 - Python
 - Pandas
 - Requests
 - OpenPyXL
-
----
-
-## ▶️ How to run
-
-```bash
-pip install -r requirements.txt
-python main.py

@@ -2,8 +2,8 @@ import time
 import pandas as pd
 from openpyxl import load_workbook
 
-from services.cep_service import get_cep_data
-from services.excel_service import load_excel, ensure_columns
+from src.cep_service import get_cep_data
+from src.excel_service import load_excel, ensure_columns
 
 
 def enrich_customers(input_file):
